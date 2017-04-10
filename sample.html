@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app = "myapp">
+<head>
+	<script type = "text/javascript"     	src="lib/angular.min.js"></script> 
+	<script src = "module/myApp.js"></script>
+	<script src = "controller/myController.js"> </script>
+	<script src = "lib/angular-route.min.js"></script>
+    <script src = "service/addService.js"></script> 
+    <script src = "directive/customeDirective2.js"></script> 
+</head>
+<body ng-controller="myController">
+	<div>
+		Name: <input type="text" ng-model="name"/><br>HELLO {{ 11.9*12.866|number:2}}<br>
+		<button type="button" ng-click="alert()">alert</button><br>
+		HELLO {{name|uppercase}} <br>
+        Added result : {{add}}
+	</div>
+<diva>yo</diva>
+</body>
+</html>	

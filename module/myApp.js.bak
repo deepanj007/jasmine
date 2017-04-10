@@ -1,0 +1,5 @@
+
+var app = angular.module("myApp", []);
+alert("module loaded");
+//var myapp = angular.module('myapp', ['ngRoute']);
+//alert("in module");
